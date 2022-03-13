@@ -11,7 +11,7 @@
 
 # Conexões 
   
-  Ao utilizar o shield, é preciso, apenas, encaixar o ESP no espaço reservado, conectar os fios de cada motor nos encaixes pro motor A e B e por último alimentar o shield com a bateria pelos pinos **VM** e **GND**. Além disso, o shield precisa de um mini jumper para conexões entre linhas, pois ele é utilizado para conectar o pino VIN com o VM, localizados imediatamente atrás das conexões da bateria e dos motores. <br><br>
+  Ao utilizar o shield, é preciso, apenas, encaixar o ESP no espaço reservado, conectar os fios de cada motor nos encaixes pro motor A e B e, em seguida, alimentar o shield com a bateria pelos pinos **VM** e **GND**. Além disso, o shield precisa de um mini jumper para conexões entre linhas, pois ele é utilizado para conectar o pino VIN com o VM, localizados imediatamente atrás das conexões da bateria e dos motores. <br><br>
   O projeto, também, pode ser feito com outra placa programada por Micropython. Para fazer as conexões, com outras placas, recomendo que dê uma olhada no arquivo **circuito-L293D.qet**. Nesse arquivo, tem de forma detalhada como realizar as conexões do L293D com os motores. Vale destacar, que no diagrama de conexões os pinos **IN 1**, **IN 2**, **IN 3** e **IN 4** são os pinos de entrada dos sinais para os motores. Por último, lembre-se de conectar o GND da placa com o da bateria pra fechar o circuito corretamente.
   
 # Como utilizar os códigos 
