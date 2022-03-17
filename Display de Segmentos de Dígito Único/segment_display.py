@@ -6,7 +6,7 @@ VALUES = {0: "1111110", 1: "0110000", 2: "1101101", 3: "1111001", 4: "0110011", 
 
 class SegmentDisplay:
     """
-        SegmentDisplay is a class that commands
+        SegmentDisplay is a class that controls
         the module's led segments.
     """
     
