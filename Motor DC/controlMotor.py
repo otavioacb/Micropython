@@ -31,7 +31,7 @@ class ControlMotor():
         """
             Pass speed value just for Motor B.
         """
-        self.__motorB.speed(600)
+        self.__motorB.speed(speed_b)
 
 
     def controlAll(self, speed_a, speed_b):
